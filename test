@@ -1,0 +1,9 @@
+local Players = game:GetService("Players")
+local ProfileService = require(script.ProfileService)
+
+local DATA_TEMPLATE = { -- 데이터 템플릿
+	Kills = 0;
+	Money = 0;
+	items = {}; -- {"StartSword", "StartGun"}
+}
+
